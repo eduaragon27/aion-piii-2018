@@ -3,10 +3,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/Proyecto-Aion-piii-2018/vista/js/mantenimiento.producto.js</file>
-            <file>file:/C:/xampp/htdocs/Proyecto-Aion-piii-2018/logica/Producto.clase.php</file>
-            <file>file:/C:/xampp/htdocs/Proyecto-Aion-piii-2018/controlador/producto.agregar.editar.controller.php</file>
-            <file>file:/C:/xampp/htdocs/Proyecto-Aion-piii-2018/vista/mantenimiento.producto.view.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/vista/comandas.view.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/vista/js/categoria.js</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/datos/configuracion.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/vista/js/marca.js</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/index.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/vista/index.html</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/webservice/token.generar.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/vista/mantenimiento.producto.view.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/vista/menu.principal.view.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/datos/Conexion.clase.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/webservice/sesion.nombreusuario.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/vista/sesion.validar.view.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/util/funciones/Funciones.clase.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/webservice/sesion.validar.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/vista/js/mantenimiento.producto.js</file>
         </group>
     </open-files>
 </project-private>
