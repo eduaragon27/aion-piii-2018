@@ -14,7 +14,7 @@ try {
     $objSesion = new Sesion();
     $objSesion->setEmail($email);
     $resultado = $objSesion->mostrarNombreUsuario();
-   if ( $resultado["email"] == $email){
+   if ( $resultado["email_usuario"] == $email){
         Funciones::imprimeJSON(200, "Bienvenido a la aplicación", $resultado);
    } else {
        Funciones::imprimeJSON(500, "No se han encontrado coincidencias", $resultado);
