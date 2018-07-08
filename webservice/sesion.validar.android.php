@@ -41,3 +41,4 @@ try {
 } catch (Exception $exc) {
     Funciones::imprimeJSON(500, $exc->getMessage(), "");
 
+}
