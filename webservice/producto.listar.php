@@ -17,7 +17,7 @@ try {
     if(validarToken($token)){
     //token es valido
      $objProducto = new Producto();
-     $resultado = $objProducto->listar2();
+     $resultado = $objProducto->listar();
     }
     /*Obtener la foto para cada producto*/
     for ($i = 0; $i < count($resultado); $i++) {
