@@ -70,7 +70,7 @@ class Sesion extends Conexion {
     }
     
         public function mostrarNombreUsuario(){
-    $sql = "select nombre_usuario, email_usuario from usuario where email= :p_email";
+    $sql = "select nombre_usuario, email_usuario from usuario where email_usuario= :p_email";
     $sentencia = $this->dblink->prepare($sql);
     $sentencia->bindParam(":p_email", $this->getEmail());
     $sentencia->execute();
