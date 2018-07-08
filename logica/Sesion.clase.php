@@ -69,6 +69,16 @@ class Sesion extends Conexion {
 
     }
     
+        public function mostrarNombreUsuario(){
+    $sql = "select nombre_usuario, email from usuario where email= :p_email";
+    $sentencia = $this->dblink->prepare($sql);
+    $sentencia->bindParam(":p_email", $this->getEmail());
+    $sentencia->execute();
+    
+    $resultado = $sentencia->fetch(PDO::FETCH_ASSOC);
+    return $resultado;
+    }
+    
      public function obtenerOpcionesMenu($codigoCargo) {
         try {
             $sql = "
@@ -94,6 +104,7 @@ class Sesion extends Conexion {
             throw $exc;
         }
     }
+    
     
     public function obtenerOpcionesMenuItem($codigoCargo, $codigoMenu) {
         try {
