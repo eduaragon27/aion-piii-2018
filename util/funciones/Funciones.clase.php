@@ -8,6 +8,8 @@ class Funciones {
     //public static $DIRECCION_WEB_SERVICE = "http://10.10.44.99:81/ws-p3/ws/";
    //public static $DIRECCION_WEB_SERVICE = "http://localhost:8080/Proyecto-aion-piii-2018/webservice/";
      public static $DIRECCION_WEB_SERVICE = "https://aion-piii-2018.herokuapp.com/webservice/";
+     
+     public static $REPOSITORIO_IMAGENES_WEB_SERVICE = "https://repositorio-aion.herokuapp.com/";
 
     public static function mensaje($mensaje, $tipo, $archivoDestino="", $tiempo=0) {
             $estiloMensaje = "";
