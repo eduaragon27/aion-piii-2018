@@ -19,7 +19,7 @@ try {
     $resultado = $objSesion->validarSesion();
    
     /*Obtener la foto del usuario*/
-    $foto= $objSesion->obtenerFoto($resultado["codigo_usuario"]);
+    $foto= $objSesion->obtenerFoto($resultado["dni_usuario"]);
     $resultado["foto"]= $foto;
     /*Obtener la foto del usuario*/
     
