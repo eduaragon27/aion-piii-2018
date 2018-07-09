@@ -43,9 +43,9 @@ try {
                         $_SESSION["codigo_cargo"] = $resultado["codigo_cargo"];
                         $_SESSION["foto_usuario"] = $resultado["foto"];
                         
-        Funciones::mensaje("Bienvenido a la aplicación", "i", "../vista/menu.principal.view.php", 2);
+        //Funciones::mensaje("Bienvenido a la aplicación", "i", "../vista/menu.principal.view.php", 2);
         
-        //header("location:../vista/menu.principal.view.php");
+        header("location:../vista/menu.principal.view.php");
  
       
     }else{
