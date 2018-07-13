@@ -5,8 +5,17 @@
         <group>
             <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/webservice/producto.listar.php</file>
             <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/logica/Sesion.clase.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/controlador/categoria.listar.controller.php</file>
             <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/webservice/sesion.validar.android.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/vista/index.html</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/logica/Categoria.class.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/vista/consumo.mesas.view.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/controlador/cliente.listar.controller.php</file>
             <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/webservice/sesion.nombreusuario.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/controlador/sesion.validar.controller.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/logica/Cliente.class.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/util/funciones/Funciones.clase.php</file>
+            <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/webservice/sesion.validar.php</file>
             <file>file:/C:/xampp/htdocs/aion-piii-2018/aion-piii-2018/logica/Producto.clase.php</file>
         </group>
     </open-files>
