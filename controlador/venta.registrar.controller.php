@@ -1,7 +1,7 @@
 <?php
 
 require_once '../logica/Venta.class.php';
-require_once '../util/funciones/Funciones.class.php';
+require_once '../util/funciones/Funciones.clase.php';
 
 try {
     
