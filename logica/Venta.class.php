@@ -1,6 +1,6 @@
 <?php
 
-require_once '../datos/Conexion.class.php';
+require_once '../datos/Conexion.clase.php';
 
 class Venta extends Conexion{
     
