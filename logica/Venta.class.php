@@ -82,7 +82,7 @@ select f_registrar_venta(:p_dni_cliente,
                         :p_longitud, 
                         :p_detalle_venta
                         ) as resultado;";
-        $sentencia = $this->dbLink->prepare($sql);
+        $sentencia = $this->dblink->prepare($sql);
         $sentencia->bindParam(":p_dni_cliente", $this->getDniCliente());
         $sentencia->bindParam(":p_dni_usuario", $this->getDniUsuario());
         $sentencia->bindParam(":p_direccion", $this->getDireccion());

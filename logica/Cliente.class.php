@@ -112,10 +112,8 @@ class Cliente extends Conexion{
                 $sentencia->bindParam(":p_celular_cliente", $this->getCelularCliente());
                 $sentencia->bindParam(":p_email_cliente", $this->getEmailCliente());
                 $sentencia->execute();
-               
-                
                 $this->dblink->commit();
-                
+                $resultado = $sentencia->fetch(PDO::FETCH_ASSOC);
                 return true;
 
         } catch (Exception $exc) {
